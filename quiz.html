@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <form id="quiz-form">
+    
+    <!-- Question 1 -->
+    <div class="question">
+      <label for="question-1">What does HTML stand for?</label>
+      <input type="hidden" id="question-1" value="What does HTML stand for?">
+      <div class="options">
+        <label><input type="radio" name="q1" value="a"> A) HyperText Markup Language</label>
+        <label><input type="radio" name="q1" value="b"> B) HyperText Meta Language</label>
+        <label><input type="radio" name="q1" value="c"> C) HyperText Media Library</label>
+      </div>
+    </div>
+    
+    <!-- Question 2 -->
+    <div class="question">
+      <label for="question-2">What does CSS stand for?</label>
+      <input type="hidden" id="question-2" value="What does CSS stand for?">
+      <div class="options">
+        <label><input type="radio" name="q2" value="a"> A) Cascading Style Sheets</label>
+        <label><input type="radio" name="q2" value="b"> B) Creative Style Solutions</label>
+        <label><input type="radio" name="q2" value="c"> C) Computer Style Syntax</label>
+      </div>
+    </div>
+    
+    <!-- Question 3 -->
+    <div class="question">
+      <label for="question-3">What does SQL stand for?</label>
+      <input type="hidden" id="question-3" value="What does SQL stand for?">
+      <div class="options">
+        <label><input type="radio" name="q3" value="a"> A) Structured Query Language</label>
+        <label><input type="radio" name="q3" value="b"> B) Standard Query Language</label>
+        <label><input type="radio" name="q3" value="c"> C) Simple Query Link</label>
+      </div>
+    </div>
+    
+    <!-- Add more questions as needed -->
+    
+    <button type="submit">Submit Quiz</button>
+  </form>
+</div>
+
+<script src="quiz.js"></script>
+
+</body>
+</html>
