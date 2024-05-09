@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color:wheat;
     margin: 0;
     padding: 0;
   }
@@ -10,18 +10,24 @@ body {
     margin: 50px auto;
     padding: 30px;
     border-radius: 10px;
-    background-color: #fff;
+    color:wheat;
+    background-image: url(blur.jpg);
+    background-position: center;
+    background-clip: content-box;
+    background-size: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   h2 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: center;
+    margin-left: 3%;color: black;
   }
   
   form {
     display: flex;
     flex-direction: column;
+   
   }
   
   label {
@@ -38,7 +44,7 @@ body {
   
   button {
     padding: 10px 20px;
-    background-color: #4caf50;
+    background-color: rgba(128, 255, 0, 0.156);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -46,7 +52,7 @@ body {
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: red;
   }
   
   .question {

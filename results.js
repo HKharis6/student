@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let correctAnswers = 0;
   
   Object.keys(userAnswers).forEach((key) => {
-    if (userAnswers[key].answer === userAnswers[key].correctAnswer) {
+    if (userAnswers[key].answer === userAnswers[key].correctAnswer) { // Compare user's answer with correct answer
       correctAnswers++;
     }
   });
@@ -30,6 +30,3 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <p><strong>Total Score:</strong> ${score}</p>
                                 <p><strong>Percentage:</strong> ${(correctAnswers / totalQuestions * 100).toFixed(2)}%</p>`;
 });
-
-
-
